@@ -4,6 +4,11 @@
         CUSTOMBUTTONS: [
             {label: "Action Tag", open: `<small>[ `, close: ` ]</small>`},
             {label: "Text Tag", open: `<span style="font-family:courier new;">`, close: `</span>`}
+            {label: "Bold", open: `<b>[ `, close: ` ]</b>`},
+            {label: "Italics", open: `<i>[ `, close: ` ]</i>`},
+            {label: "Strike", open: `<strike>[ `, close: ` ]</strike>`},
+            {label: "User", open: `<user name="username">`}
+            {label: "Link", open: `<a href="https://dreamwidth.org">`, close: `</a>`}
         ],
         AUTOSCROLL: true,
         IMGUR: [],
